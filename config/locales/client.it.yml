@@ -1,0 +1,6 @@
+it:
+  js:
+    dates:
+      poppo:
+        date_month: "DD/MMM"
+        date_year: "DD/MMM"
