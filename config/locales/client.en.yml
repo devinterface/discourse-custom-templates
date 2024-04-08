@@ -91,6 +91,7 @@ en:
         date_month: "DD/MM/YYYY HH:mm"
         # Use Moment.js format string: https://momentjs.com/docs/#/displaying/format/
         date_year: "DD/MM/YYYY HH:mm"
+        created: "Created"
       medium:
         less_than_x_minutes:
           one: "less than %{count} min"
