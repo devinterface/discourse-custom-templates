@@ -50,8 +50,10 @@
   {{/if}}
 
   {{~raw-plugin-outlet name="topic-list-main-link-bottom"}}
+  <div class="link-bottom-line">
     {{i18n 'dates.tiny.created'}}:
-    {{~format-date topic.createdAt format="tiny" noTitle="true"~}}
+    {{~custom-date topic.createdAt~}}
+    </div>
 </td>
 
 {{~raw-plugin-outlet name="topic-list-after-main-link"}}
