@@ -7,7 +7,7 @@ export default function customDate(date) {
   let formatted_data = moment(date).format(I18n.t("dates.tiny.date_month"));
 
   return htmlSafe(
-    "<span class='relative-date' data-time='" +
+    "<span style='white-space: nowrap;' data-time='" +
       date.getTime() +
       "'>" +
       formatted_data +
